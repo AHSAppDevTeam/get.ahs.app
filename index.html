@@ -17,35 +17,68 @@
     justify-content: center;
     align-items: center;
     font-family: Helvetica, Roboto, Sans-serif;
-    background: #eee;
+    background: #fce;
     text-align: center;
     padding: 4pt;
+    gap: 16pt;
   }
   img{
     width: 20vw;
+  }
+  h1 {
+    font-weight: normal;
+    margin-bottom: 0;
   }
   a{
     color: black;
     text-decoration: none;
     margin-top: 1rem;
-  }
-  h2{
+    font-size: 1.5rem;
     min-width: 50vw;
     background: white;
     padding: 1rem;
     border-radius: 1rem;
     margin: 0;
+    transition-duration: 200ms;
+  }
+  a:hover {
+    background: #fff8;
+  }
+  #screenshots {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    gap: .5rem;
+  }
+  #screenshots, #screenshots>img{
+    border-radius: .5rem;
+  }
+  #screenshots>img{
+    width: 10rem;
   }
   </style>
 </head>
 <body>
-<h1>Get Arcadia High Mobile</h1>
-<img src='https://ahs.app/icon.png'>
-<a href='https://apps.apple.com/us/app/id1305220468'><h2>
-iOS
-</h2></a>  
-<a href='https://play.google.com/store/apps/details?id=com.hsappdev.ahs'><h2>
-Android
-</h2></a>  
+  <h1>Arcadia High Mobile App</h1>
+  <img src='https://ahs.app/icon.png'>
+  <a href='https://apps.apple.com/us/app/id1305220468'>
+  iOS
+  </a>  
+  <a href='https://play.google.com/store/apps/details?id=com.hsappdev.ahs'>
+  Android
+  </a>  
+  <section id='screenshots'>
+    <img src='https://get.ahs.app/2021-screenshot-1.jpeg'>
+    <img src='https://get.ahs.app/2021-screenshot-2.jpeg'>
+    <img src='https://get.ahs.app/2021-screenshot-3.jpeg'>
+    <img src='https://get.ahs.app/2021-screenshot-4.jpeg'>
+    <img src='https://get.ahs.app/2021-screenshot-5.jpeg'>
+  </section>
+  <p>
+    Made with ❤️ by the Arcadia High App Development Team :D
+  </p>
+  <em>
+    We are Alex Dang, Arina Miyadi, Richard Wei, Danielle Wong, Emily Yu, Kimberly Yu, Steffi Huang, Rachel Saw, Jennifer Wong, Kelly Cheng, Kyrene Tam, Arina Miyadi, Steffi Huang, Jeffrey Aaron Jeyasingh, Xing Liu, Joshua McMahon, and Richard Wei.
+  </em>
 </body>
 </html>
